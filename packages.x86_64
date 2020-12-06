@@ -58,7 +58,6 @@ mkinitcpio
 mkinitcpio-archiso
 mkinitcpio-nfs-utils
 mtools
-nano
 nbd
 ndisc6
 nfs-utils

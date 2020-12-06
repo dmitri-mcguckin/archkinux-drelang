@@ -1,4 +1,4 @@
-# archkinux-drelang
+# Arch Linux DRelang
 
 My custom build for archLinux-releng. Primarily indented to be a remote-livedisk tool, for remote archlinux installation.
 
@@ -6,3 +6,4 @@ My custom build for archLinux-releng. Primarily indented to be a remote-livedisk
 * Root contains my personal public key(s)
 * Enabled tg3 and boradcom kernel modules by default (Broadcom ethernet drivers)
 * Preloaded with custom DHCP host info (livedisk can always be accessed with `root@archlive.home`)
+* Disabled DNSSEC, since it's an ongoing bug with systemd
