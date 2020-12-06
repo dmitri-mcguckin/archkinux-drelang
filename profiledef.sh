@@ -2,8 +2,8 @@
 # shellcheck disable=SC2034
 
 iso_name="archlinux-dreleng"
-iso_label="ARCH_DRELANG_$(date +%Y%m)"
-iso_publisher="Arch Linux DRelang <https://github.com/dmitri-mcguckin/archlinux-drelang>"
+iso_label="ARCH_DRELENG_$(date +%Y%m)"
+iso_publisher="Arch Linux DReleng <https://github.com/dmitri-mcguckin/archlinux-dreleng>"
 iso_application="Arch Linux DRelang"
 iso_version="$(date +%Y.%m.%d)"
 install_dir="arch"
